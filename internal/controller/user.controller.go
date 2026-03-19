@@ -1,7 +1,6 @@
 package controller
 
 import (
-	"fmt"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
@@ -31,8 +30,6 @@ func(uc *UserController) GetUser(c *gin.Context)  {
 func(uc *UserController) GetUserQuery(c *gin.Context)  {
 	uid := c.Query("uid")
 	old := c.Query("old")
-	allParam := c.Request.URL.Query()
-	fmt.Printf("allParam: ",  allParam)
 	if uid == "123" {
 		response.SuccessResponse(c, response.ErrCodeSuccess, gin.H{
 			"msg": "userid of user: " + uid + ", old: " + old + " is valid",

@@ -1,0 +1,4 @@
+{"level":"INFO","ts":"2026-03-18 16:10:19","caller":"middlewares/logger.middleware.go:16","msg":"Incoming Request","method":"GET","path":"/v1/test-create-user/123","duration":"136.042µs","status":200,"client_ip":"::1"}
+{"level":"INFO","ts":"2026-03-18 16:10:22","caller":"middlewares/logger.middleware.go:16","msg":"Incoming Request","method":"GET","path":"/v1/query-user","duration":"80.708µs","status":200,"client_ip":"::1"}
+{"level":"INFO","ts":"2026-03-18 16:11:24","caller":"middlewares/logger.middleware.go:16","msg":"Incoming Request","method":"GET","path":"/v1/test-create-user/123","duration":"109.833µs","status":200,"client_ip":"::1"}
+{"level":"INFO","ts":"2026-03-18 16:11:25","caller":"middlewares/logger.middleware.go:16","msg":"Incoming Request","method":"GET","path":"/v1/query-user","duration":"71.166µs","status":200,"client_ip":"::1"}
