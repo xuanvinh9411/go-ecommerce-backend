@@ -1,0 +1,10 @@
+server:
+  port: 8082
+database:
+  user: admin
+  password: admin
+  host: localhost
+  database: Shop
+security:
+  jwt:
+    key: abc12
